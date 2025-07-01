@@ -236,7 +236,7 @@ return () => {
         animation === "accueil" ? "opacity-100" : "opacity-0"
       } text-2xl sm:text-3xl md:text-6xl`}
     >
-      retrouve ton équilibre et ta force intérieure
+      Retrouve ton équilibre et ta force intérieure
     </p>
     <Destination
       partie="contact"
@@ -257,7 +257,7 @@ return () => {
         className="h-full w-1/2 object-cover shadow-xs rounded-l-xl"
       />
       <div className="h-full w-1/2 lg:text-3xl xl:text-xl sm:text-lg text-center -my-5 mx-3 flex items-center">
-        decouvrez zenCoach, un coach passionné, à l’écoute de vos besoins, prêt à vous accompagner avec expertise et bienveillance pour révéler le meilleur de vous-même.
+        Decouvrez ZenCoach, un coach passionné, à l’écoute de vos besoins, prêt à vous accompagner avec expertise et bienveillance pour révéler le meilleur de vous-même.
       </div>
     </div>
 
@@ -266,12 +266,12 @@ return () => {
     </h2>
 
     <div className="mx-auto xl:mx-0 sm:mr-10 w-full sm:w-[40vw] md:w-[100vw] xl:w-[40vw]  xl:ml-0 md:ml-10  lg:w-[100vw] h-[30vh] sm:h-[40vh] bg-gray-600 border-2 border-white flex flex-col overflow-y-scroll scrollbar-hide relative rounded-lg p-3 mb-10 sm:my-25 md:my-4 xl:-my-1 ">
-      <Avis lettre="a" nom="julien" pense="depuis le debut du coaching j'ai repris gout au sport et j'ai de nouveau confiance en moi." />
-      <Avis lettre="b" nom="nathalie" pense="grace a zencoach je suis maintenant sereine dans mon corps." />
-      <Avis lettre="a" nom="matthieu" pense="en un ans j'ai accompli les objectifs sur lesquels je stagnais." />
-      <Avis lettre="b" nom="aurelien" pense="le coaching n'est pas seulement physique mais aussi mental, a l'aide de zencoach j'ai appris la discipline." />
-      <Avis lettre="a" nom="lucas" pense="en 4 mois, j'ai perdu 11 kilos grace a zencoach, je me sentais bien et fier de mois tout au long du coaching et encore aujourd'hui !" />
-      <Avis lettre="b" nom="elliot" pense="Grâce à ZenCoach, j’ai pris 7 kg de muscle en 5 mois sans me sentir perdu. Le plan était clair, adapté à mon rythme." />
+      <Avis lettre="a" nom="Julien" pense="Depuis le debut du coaching j'ai repris gout au sport et j'ai de nouveau confiance en moi." />
+      <Avis lettre="b" nom="Nathalie" pense="Grace a zencoach je suis maintenant sereine dans mon corps." />
+      <Avis lettre="a" nom="Matthieu" pense="en un ans j'ai accompli les objectifs sur lesquels je stagnais." />
+      <Avis lettre="b" nom="Aurelien" pense="Le coaching n'est pas seulement physique mais aussi mental, a l'aide de zencoach j'ai appris la discipline." />
+      <Avis lettre="a" nom="Lucas" pense="En 4 mois, j'ai perdu 11 kilos grace a zencoach, je me sentais bien et fier de mois tout au long du coaching et encore aujourd'hui !" />
+      <Avis lettre="b" nom="Elliot" pense="Grâce à ZenCoach, j’ai pris 7 kg de muscle en 5 mois sans me sentir perdu. Le plan était clair, adapté à mon rythme." />
     </div>
   </div>
 
@@ -287,7 +287,7 @@ return () => {
       paragraphe="Plus qu’un coach, un guide pour cultiver ta sérénité et ta motivation. On travaille ensemble ton état d’esprit zen, ta confiance et ta résilience pour que chaque pas vers ton objectif soit un vrai moment de paix intérieure."
     />
     <Card
-      titre="un coaching adapte a vos objectifs"
+      titre="Un coaching adapte a vos objectifs"
       time={601}
       paragraphe="Chaque parcours est unique, c’est pourquoi ton coaching est entièrement personnalisé. Qu’il s’agisse de prise de masse, perte de poids ou bien-être général, ton programme évolue avec toi, pour toujours mieux répondre à tes besoins."
     />
@@ -296,10 +296,10 @@ return () => {
     <section id="coaching"   className=" px-4 xl:snap-start lg:h-auto xl:h-screen w-full flex flex-col xl:gap-0 gap-30  justify-around pt-32 ">
      <h2 className='self-center text-center text-4xl font-bold text-shadow-amber-50 drop-shadow-md bg-gradient-to-l from-[#ff9966] to-[#ff5e62] bg-clip-text text-transparent  '>Comment se passe le coaching avec zenCoach ? </h2>
      <div className='flex  xl:justify-evenly xl:items-end relative flex-col xl:gap-0 gap-25 items-center xl:flex-row   '>
-      <Test icon={FcAssistant} title='echange de depart' time={1} text='Avec ZenCoach, tout commence par un échange personnalisé. On discute de tes objectifs, ton mode de vie, et tes attentes pour construire ensemble une base solide et motivante.'/>
-      <Test icon={GrPlan} title='plan sur-mesure' time={301} text='Chaque corps est unique, ton plan aussi. ZenCoach élabore un programme adapté à ton profil et tes objectifs, mêlant exercices, alimentation et conseils bien-être.' />
+      <Test icon={FcAssistant} title='Echange de depart' time={1} text='Avec ZenCoach, tout commence par un échange personnalisé. On discute de tes objectifs, ton mode de vie, et tes attentes pour construire ensemble une base solide et motivante.'/>
+      <Test icon={GrPlan} title='Plan sur-mesure' time={301} text='Chaque corps est unique, ton plan aussi. ZenCoach élabore un programme adapté à ton profil et tes objectifs, mêlant exercices, alimentation et conseils bien-être.' />
       <Test icon={GiWeightLiftingUp} title="Coaching et seance" time={601} text="C’est le moment d’agir ! ZenCoach t’accompagne lors de séances motivantes et personnalisées, en présentiel ou à distance, pour te guider et t’aider à progresser efficacement."/>
-      <Test icon={FcBullish} title='suivi et evaluation' time={901} text="On avance ensemble, pas à pas. ZenCoach assure un suivi régulier, ajuste ton programme et célèbre chaque victoire, pour que tu restes sur la bonne voie vers tes objectifs."/>
+      <Test icon={FcBullish} title='Suivi et evaluation' time={901} text="On avance ensemble, pas à pas. ZenCoach assure un suivi régulier, ajuste ton programme et célèbre chaque victoire, pour que tu restes sur la bonne voie vers tes objectifs."/>
      </div>
      
     </section>
