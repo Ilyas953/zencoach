@@ -23,8 +23,8 @@ function Avis({lettre, nom, pense}) {
 return (
   <>
   <div className={` *:mx-3 items-center flex justify-between min-h-[60px] ${mode} `}>
-    <p className='font-semibold' >{nom}</p>
-    <p className=' italic'>{` "${pense}"`}</p>
+    <p className='font-semibold my-3' >{nom}</p>
+    <p className=' italic my-3'>{` "${pense}"`}</p>
   </div>
   </>
 )
